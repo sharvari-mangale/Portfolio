@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <!---HEADER-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+
+
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <!---HOME-->
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi, my name is</h3>
+                <h1><span class="red">Sharvari Mangale</span></h1>
+                <h3>and I am a passionate <br><span id="element"></span></h3>
+                <div class="social-media">
+                    <a href="mailto:sharvarim01@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/sharvari-mangale-21a37b1ba/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sharvari-mangale"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1cOtlsQi2xBbtvYdH7eoeSu94zkmf7M66/view?usp=sharing"
+                    class="btn">Download CV</a>
+
+            </div>
+
+            <div class="home-img">
+                <img src="photos/profile_photo.jpg" alt="">
+            </div>
+
+        </section>
+
+        <!----ABOUT-->
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="photos/profile_photo.jpg" alt="">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+
+                <p>Entry-level IT Graduate with a strong foundation in software engineering principles and SQL programming, 
+                    seeking an opportunity to embark on a career as a Software Developer. Possessing exceptional communication skills and 
+                    a proactive mindset, I am driven to excel in collaborative projects and deliver high-quality results. 
+                    Proven ability to thrive in fast-paced settings, meet tight deadlines, and adapt to new technologies quickly. 
+                    Eager to contribute energy, attention to detail, and a passion for innovation to the software development team. 
+                    Graduated with a Bachelor of Engineering in Information Technology from Dr. D. Y. Patil College of Engineering, Pune,
+                     Maharashtra, with a CGPA of 9.00 (83%).</p>
+                
+
+            </div>
+        </section>
+
+
+        <!----SERVICES-->
+
+        <hr>
+        <section class="services" id="services">
+            
+            <h2 class="heading">Work Experience</h2>
+
+            <div class="services-container">
+
+                <div class="services-box">
+                    <img class="image-top" src="photos/python.png" alt="">
+
+                    <h3>Jr. Python Developer Intern</h3>
+                    <p><b>Prepinsta Technologies Pvt. Ltd.</b><br>
+                        (March 2024 - Present)<br>
+                        • Collaborated on Python-based solutions with senior developers.<br>
+                        • Enhanced problem-solving skills through real-world projects.<br>
+                        • Contributed insights and suggestions in team meetings for project enhancement.</p>
+
+
+                </div>
+
+                <div class="services-box">
+                    <img class="image-top" src="photos/webdev.png" alt="">
+
+                    <h3>Web Developer Intern</h3>
+                    <p><b>Bharat Intern</b><br>
+                        (Dec 2023 - Feb 2024)<br>
+                        • Real-world project experience developing front-end solutions using HTML,CSS, and
+                        JavaScript.<br>
+                        • Proficiency in creating visually appealing and responsive user interfaces.<br>
+                        • Effective collaboration within a team environment to meet project requirements and deliver
+                        high-quality results.</p>
+                </div>
+
+                <div class="services-box">
+                    <img class="image-top" src="photos/data.png" alt="">
+
+                    <h3>Data Science Intern</h3>
+                    <p><b>Let's Grow More Community</b><br>
+                        (Oct 2021 - Nov 2021)<br>
+                        • Contributed actively to two projects during a 1-month internship, showcasing adaptability and rapid learning.<br>
+                        • Leveraged Python libraries including Numpy, Matplotlib, Seaborn, and Pandas to complete the Iris Flower Classification ML Project and Image to Pencil Sketch with Python<br>
+                        • Demonstrated effective communication by presenting findings and sharing insights with the community.</p>
+                </div>
+
+                <div class="services-box">
+                    <img class="image-top" src="photos/webdev.png" alt="">
+
+                    <h3>Web Developer Intern</h3>
+                    <p><b>The Sparks Foundation</b><br>
+                        (Aug 2021 - Sept 2021)<br>
+                        • Collaborated on designing and developing a Dynamic Banking Website with user-friendly features, enabling streamlined<br>
+                        • Implemented user registration, account balance checking, fund transfers, and transaction history maintenance to enhance user experience.<br>
+                        • Utilized HTML5, CSS3, JavaScript, and SQL to ensure an interactive and secure web platform.<br>
+                        • Demonstrated ability to function under pressure and meet tight project </p>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <!--PORTFOLIO SECTION-->
+
+
+        <section class="portolio" id="portfolio">
+            <h2 class="heading">Latest <span>Projects</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+
+                    <img src="photos/shopping.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>E-Commerce Website</h4>
+                        <a href="https://github.com/Nehapawar6/E-Commerce-Website" class="button">Project Link</a>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-box">
+                    <img src="photos/fitness.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>AI Preceptor: Guide for Fitness</h4>
+                        <a href="https://github.com/sharvari-mangale/AI-Preceptor-Guide-for-FItness" class="button">Project Link</a>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+
+
+
+                <div class="portfolio-box">
+                    <img src="photos/tax.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Tax-Calculator Website</h4>
+                        <a href="https://github.com/sharvari-mangale/Tax_Calculator" class="button">Project Link</a>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+
+
+
+                <div class="portfolio-box">
+                    <img src="photos/netflix.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Netflix-clone Website</h4>
+                        <a href="https://github.com/sharvari-mangale/Netflix-CLone-Responsive" class="button">Project Link</a>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+
+
+
+                <div class="portfolio-box">
+                    <img src="photos/bank.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>FinTech Bank</h4>
+                        <a href="" class="button">Project Link</a>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!----CONTACT-->
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+        <div class="social-media">
+            <a href="mailto:sharvarim01@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/sharvari-mangale-21a37b1ba/"><i class="fa-brands fa-linkedin"></i></a>
+                       
+        </div>
+    </main>
+
+
+    <!----FOOTER-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @SharvariMangale | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<span id="element"></span>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Python Developer', 'Web Developer','Software Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+  <script src="main.js"></script>
+</body>
+
+</html>
